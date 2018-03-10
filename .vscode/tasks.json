@@ -13,7 +13,7 @@
         {
             "label": "Valgrind",
             "type": "shell",
-            "command": "valgrind ./bin/output",
+            "command": "make && valgrind ./bin/output >/dev/null",
             "problemMatcher": []
         }
     ]
